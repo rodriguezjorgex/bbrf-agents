@@ -2,3 +2,4 @@ requests==2.23.0
 git+git://github.com/aboul3la/Sublist3r.git#egg=sublist3r
 ratelimit==2.2.1
 bbrf==1.1.1
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
